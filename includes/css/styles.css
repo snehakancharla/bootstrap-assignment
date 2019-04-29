@@ -1,0 +1,91 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   footer{
+      background: #333;
+      color: #eee;
+      font-size: 21px;
+      padding: 20px;
+   }
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+  
+.well .page-header h2{
+   margin-top: 0px;
+}
+ .well .page-header{
+   margin-top: 0px;
+}
+.well{
+   margin-top: 70px;
+}
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .navbar-brand{
+      padding : 13px  15px;
+   }
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+   .col-sm-6 img{
+      background :url('images/allmusicsmall.jpg') ;
+   }
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   .col-sm-6 img{
+      background :url('images/allmusicsmall.jpg') ;
+
+   }
+   
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+   .col-sm-6 img{
+      background :url('images/allmusic.png') ;
+   }
+   
+	
+}
