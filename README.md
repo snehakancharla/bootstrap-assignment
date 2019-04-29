@@ -15,4 +15,6 @@ Furthermore,
 10. Name the files/ folder structure appropriately
 11. Maximum use of Semantic Elements instead of normal container elements
 
-https://github.com/snehakancharla/bootstrap-assignment.git
+
+
+https://snehakancharla.github.io/bootstrap-assignment/
