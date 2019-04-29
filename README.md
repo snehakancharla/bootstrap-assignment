@@ -14,3 +14,5 @@ Furthermore,
 9. The code must be indented and you must include proper comments etc.
 10. Name the files/ folder structure appropriately
 11. Maximum use of Semantic Elements instead of normal container elements
+
+https://github.com/snehakancharla/bootstrap-assignment.git
