@@ -13,14 +13,21 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
+  body{
+   font-family: 'Patua One', cursive;
+   text-align: justify;
+  }
+
    footer{
       background: #333;
       color: #eee;
-      font-size: 21px;
+      font-size: 11px;
       padding: 20px;
    }
 
-
+   #inputMessage{
+      margin-bottom: 15px;
+   }
 
 /* --------------------------------------
    Typography
@@ -36,7 +43,11 @@ Notes:	 Hand coded for Udemy.com
    margin-top: 70px;
 }
 
+ul.unstyled {
+   list-style:none;
+   padding: 0px;
 
+}
 
 /* --------------------------------------
    Navbar
@@ -50,6 +61,26 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+
+   #myCarousel {
+      margin-top: 60px;
+   }
+
+#myCarousel .item{ height: 400px; }
+
+#myCarousel .item{ width: 940px; }
+
+   #slide1 {
+      background :url('../../images/carousel_med1.jpg') top center no-repeat;
+
+   }
+   #slide2 {
+      background :url('../../images/carousel_med2.jpg')  top center no-repeat;
+   }
+   #slide3 {
+      background :url('../../images/carousel_med3.jpg')  top center no-repeat;
+   }
+
 
 
 
@@ -73,9 +104,17 @@ Notes:	 Hand coded for Udemy.com
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-   .col-sm-6 img{
-      background :url('images/allmusicsmall.jpg') ;
-
+   #myCarousel .item{ height: 310px; }
+   #myCarousel .item{ width: 728px; }
+   #slide1 {
+      background :url('../../images/carousel_small1.jpg') top center no-repeat;
+   }
+   #slide2 {
+      background :url('../../images/carousel_small2.jpg') top center no-repeat;
+   }
+   #slide3 {
+      background :url('../../images/carousel_small3.jpg') top center no-repeat;
+   }
    }
    
 	
@@ -83,8 +122,17 @@ Notes:	 Hand coded for Udemy.com
 
 /* Large desktop */
 @media (min-width: 1200px) {
-   .col-sm-6 img{
-      background :url('images/allmusic.png') ;
+   #myCarousel .item{ height: 500px; }
+   #myCarousel .item{ width: 1170px; }
+   #slide1 {
+      background :url('../../images/carousel_large1.jpg') top center no-repeat;
+   }
+   #slide2 {
+      background :url('../../images/carousel_large2.jpg') top center no-repeat;
+   }
+   #slide3 {
+      background :url('../../images/carousel_large3.jpg') top center no-repeat;
+   }
    }
    
 	
